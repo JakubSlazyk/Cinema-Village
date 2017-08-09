@@ -1,0 +1,163 @@
+#container{
+	background-image: url("bg.jpg");
+	width: auto;
+	height: 500px;
+}
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.movieInfo{
+	width: 43%;
+	height: 100%;
+	background: black;
+	padding-right: 0px;
+	float: right;
+	/*border-top: 5px solid #2b569b;
+	border-right: 10px solid #113977;
+	border-left: 10px solid #2b569b;
+	border-bottom:5px solid #113977;*/
+
+}
+.movie{
+	width: auto;
+	margin: 0px 0 ;
+	height: 100%;
+	background: black;
+	  border: 20px solid transparent;
+      -webkit-border-image: 
+      -webkit-linear-gradient(
+#76C5FE 0%, #08375A 100%) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(
+#76C5FE 0%, #08375A 100%) 1 100%;    
+    -o-border-image:
+      -o-linear-gradient(
+#76C5FE 0%, #08375A 100%) 1 100%;
+    border-image:
+      linear-gradient(top left, 
+#76C5FE 0%, #08375A 100%) 1 100%;
+      display: block;
+      overflow: hidden;
+
+	  border-image-slice: 1;
+}
+
+
+
+.filmImg{
+	height: 100%;
+	width: 38%;
+	/*background: yellow;*/
+	float: left;
+	margin: 5px 5px 0px 0px;
+
+}
+.bestInfo{
+	/*background: blue;*/
+	height: 100%;
+	width: 60%;
+	float: right;
+	color: white;
+}
+.movieDesc{
+	/*background: purple;*/
+	height: 50%;
+	width: 100%;
+	color: white;
+	display: block;
+	overflow: auto;
+}
+.contain{
+	height: 50%;
+	width: 100%;
+	background: black;
+}
+img{
+	height: 100%;
+	width: 100%;
+}
+video{
+	width: auto;
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+	position: absolute;
+	object-fit: fill;
+}
+.player{
+	width: 57%;
+	height: 100%;
+	min-height: 100%;
+	background: black;
+	margin:0px;
+	
+	position: relative;
+	float: left;
+	display: block;
+}
+
+.movieG{
+/*	border: 2px solid blue;*/
+	margin: 1.5% 0px;
+	background: black;
+	text-align: center;
+}
+.row{
+	background: black;
+	width: 100%;
+	margin: 0px;
+}
+body{
+	background-color: black;
+	color: white;
+	font-family: 'Comfortaa', sans-serif;
+}
+p{
+	margin: 2% 2% 2% 2%;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+.navbar-inverse{
+	margin-bottom:0px;
+	font-family: 'Arbutus', sans-serif;
+
+}
+.movieSearch{
+	margin-top:1%;
+}
+.containMovies{
+	height: auto;
+	margin-top: 6px
+}
+/*MOVIES LIST PART ONLY*/
+.movImg{
+
+height: 100%;
+float: left;
+width:30%;
+}
+.movDesc{
+margin-top:15px;
+width: 65%;
+height: auto;
+float: right;
+}
+.movProp{
+width: 40%;
+float: left;
+font-size:1.5em;
+margin-right:5%;
+}
+.con2{
+	margin-top:5%;
+}
+
+
+/*END OF MOVIES LIST PART*/

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cinema Village</title>
+	<script
+  	src="http://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	crossorigin="anonymous"></script>
+	<link href='http://fonts.googleapis.com/css?family=Arbutus&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\NAVBAR START///////////////////////////////////////// -->
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Cinema Village</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#"><i class="fa fa-film" aria-hidden="true"></i>  Repertuar</a></li>
+        
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Login  <i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
+        <li><a href="#">Register  <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\NAVBAR END///////////////////////////////////////// -->
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\MOVIE PLAYER START///////////////////////////////////////// -->
+<div class="movie">
+	<div class="player">
+		<video loop muted autoplay poster="s1.jpg">
+        <source src="http://movietrailers.apple.com/movies/wb/dunkirk/dunkirk-trailer-3_h1080p.mov" type="video/mp4">
+    </video>
+	</div>
+	<div class="movieInfo">
+	<div class="contain">
+		<div class="filmImg">
+			<img src="s1.jpg">
+		</div>
+		<div class="bestInfo">
+		<h3><i class="fa fa-television" aria-hidden="false"></i> Wojna o planetę małp</h1>
+		<h3><i class="fa fa-user" aria-hidden="true"></i> Matt Reeves</h3>
+		<h3><i class="fa fa-calendar" aria-hidden="true"></i> 28.07.2017</h3>
+		<h3><i class="fa fa-clock-o" aria-hidden="true"></i> 2h 20min</h3>
+		</div>
+	</div>
+	<div class="movieDesc">
+		<p>
+			W trzecim filmie z przebojowej serii, która cieszy się uznaniem zarówno widzów, jak i krytyków, Cezar i jego małpy uwikłane zostają w zbrojny konflikt z armią ludzi, na czele której stoi bezwzględny Pułkownik. Małpy ponoszą straszliwe straty, podczas gdy Cezar zmaga się z mrocznymi instynktami i wyrusza w drogę, by pomścić swych pobratymców. Gdy Cezar i Pułkownik stają twarzą w twarz, dochodzi do spektakularnej bitwy, w której stawką jest przyszłość obu gatunków i całej naszej planety.
+		</p>
+	</div>
+	</div>
+</div>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\MOVIE PLAYER END///////////////////////////////////////// -->
+<nav class="navbar navbar-inverse">
+	<div class="container">
+		<ul class="nav navbar-nav">
+	        <li><a href="#">Repertuar</a></li>
+	        <li>
+	        	<div class="containMovies">
+		        	<form class="form-inline">
+	  					<div class="form-group">
+	  						<input type="text" class="form-control movieSearch" id="movieSearch" placeholder="Wyszukaj">
+	  					</div>
+	  					 <button type="submit" class="btn btn-default movieSearch">Wyszukaj</button>
+	  				</form>
+  				</div>
+	        </li>
+	    </ul>
+	</div>
+</nav>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\GRID SYSTEM START///////////////////////////////////////// -->
+
+<div class="row">
+<div class="container-fluid">
+	<div class="col-md-3 col-sm-6 col-xs-12 movieG">
+	<img src="lg1.jpg">
+	Placeholder Title
+	</div>
+	<div class="col-md-3 col-sm-6 col-xs-12 movieG">
+	<img src="lg1.jpg">
+	Placeholder Title
+	</div>
+	<div class="col-md-3 col-sm-6 col-xs-12 movieG">
+	<img src="lg1.jpg">
+	Placeholder Title
+	</div>
+	<div class="col-md-3 col-sm-6 col-xs-12 movieG">
+	<img src="lg1.jpg">
+	Placeholder Title
+	</div>
+	
+
+
+</div>
+</div>
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\GRID SYSTEM END///////////////////////////////////////// -->
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
